@@ -1,0 +1,43 @@
+.items{
+    padding: 0 10px;
+}
+
+.items__name {
+    min-height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.items__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin-left: -20px;
+}
+
+.items__item{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.items__image {
+    width: 200px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.items__image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.items__price{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+}

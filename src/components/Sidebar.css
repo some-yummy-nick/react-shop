@@ -1,0 +1,40 @@
+.sidebar {
+    min-width: 300px;
+    max-width: 300px;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.sidebar__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.sidebar__item + .sidebar__item {
+    margin-top: 20px;
+}
+
+.sidebar__item {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.sidebar__name{
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.sidebar__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidebar__price{
+    white-space: nowrap;
+    font-weight: 500;
+}
+
