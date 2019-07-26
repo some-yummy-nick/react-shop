@@ -18,7 +18,7 @@ const render = () => ReactDOM.render(
                     <h1 className="shop__title">Магазин</h1>
                 </header>
                 <div className="shop__wrapper">
-                    <Route exact={true} path="/" component={Main}/>
+                    <Route exact path="/" component={Main}/>
                     <Route path="/product/:id" component={Product}/>
                 </div>
             </div>

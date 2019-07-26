@@ -3,9 +3,7 @@ import {Grid} from '../components/Grid';
 import {List} from '../components/List';
 import {Sidebar} from '../components/Sidebar';
 import {store} from "../store";
-import {addItem, removeItem} from "../actions"
-import grid from "../images/grid.svg";
-import list from "../images/list.svg";
+import {addItem, removeItem} from "../actions";
 
 class Main extends React.Component {
     state = {
@@ -25,14 +23,13 @@ class Main extends React.Component {
 
     render() {
         return (
-
             <Fragment>
                 <Sidebar items={store.getState().basket} removeToBasket={this.dispatchToRemoveFromBasket}/>
                 <div className="shop__view">
-                    <button className="btn btn-info" type="button" data-view="grid" onClick={this.changeView}>
-                        <img className="shop__img" src={grid} alt=""/></button>
-                    <button className="btn btn-info" type="button" data-view="list" onClick={this.changeView}>
-                        <img className="shop__img" src={list} alt=""/></button>
+                    <button className="btn btn-info shop__grid" type="button" data-view="grid" onClick={this.changeView}>
+                    </button>
+                    <button className="btn btn-info shop__list" type="button" data-view="list" onClick={this.changeView}>
+                    </button>
                 </div>
                 <main className="main">
                     {this.state.view === "grid" ?
