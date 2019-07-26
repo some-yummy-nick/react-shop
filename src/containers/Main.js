@@ -25,13 +25,13 @@ class Main extends React.Component {
         return (
             <Fragment>
                 <Sidebar items={store.getState().basket} removeToBasket={this.dispatchToRemoveFromBasket}/>
-                <div className="shop__view">
-                    <button className="btn btn-info shop__grid" type="button" data-view="grid" onClick={this.changeView}>
-                    </button>
-                    <button className="btn btn-info shop__list" type="button" data-view="list" onClick={this.changeView}>
-                    </button>
-                </div>
                 <main className="main">
+                    <div className="shop__view">
+                        <button className="btn btn-info shop__grid" type="button" data-view="grid" onClick={this.changeView}>
+                        </button>
+                        <button className="btn btn-info shop__list" type="button" data-view="list" onClick={this.changeView}>
+                        </button>
+                    </div>
                     {this.state.view === "grid" ?
                         <Grid mock={store.getState().items} addToBasket={this.dispatchToAddToBasket}/> :
                         <List mock={store.getState().items} addToBasket={this.dispatchToAddToBasket}/>

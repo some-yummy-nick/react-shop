@@ -1,4 +1,4 @@
-.grid{
+.grid {
     padding: 0 10px;
 }
 
@@ -11,9 +11,9 @@
     margin-left: -20px;
 }
 
-.grid__item{
+.grid__item {
     width: 30%;
-    min-width: 200px;
+    min-width: 190px;
     margin-left: 20px;
     margin-bottom: 50px;
 }
@@ -38,9 +38,15 @@
     width: 100%;
 }
 
-.grid__price{
+.grid__price {
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 500;
     white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+    .grid__item {
+        width: 100%;
+    }
 }
