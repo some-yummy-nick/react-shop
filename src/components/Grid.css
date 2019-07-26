@@ -1,27 +1,29 @@
-.items{
+.grid{
     padding: 0 10px;
 }
 
-.items__name {
-    min-height: 48px;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.items__list {
+.grid__list {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     margin-left: -20px;
 }
 
-.items__item{
+.grid__item{
+    width: 30%;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
-.items__image {
+.grid__name {
+    min-height: 54px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.grid__image {
     width: 200px;
     height: 320px;
     margin-left: auto;
@@ -29,13 +31,13 @@
     margin-bottom: 10px;
 }
 
-.items__image img {
+.grid__image img {
     object-fit: cover;
     height: 100%;
     width: 100%;
 }
 
-.items__price{
+.grid__price{
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 500;

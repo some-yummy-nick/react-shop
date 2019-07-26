@@ -1,0 +1,48 @@
+.list{
+    padding: 0 10px;
+}
+
+.list__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.list__name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.list__image {
+    width: 50px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.list__image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.list__price{
+    font-size: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: #000000;
+}
+
+.list__table{
+    width: 100%;
+}
+
+.list__table td{
+    padding-bottom: 10px;
+}
