@@ -17,6 +17,7 @@ a:hover {
     position: absolute;
     left: 0;
     top: 20px;
+    color: #000000;
 }
 
 .shop__wrapper {

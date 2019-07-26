@@ -27,9 +27,9 @@ class Main extends React.Component {
                 <Sidebar items={store.getState().basket} removeToBasket={this.dispatchToRemoveFromBasket}/>
                 <main className="main">
                     <div className="shop__view">
-                        <button className="btn btn-info shop__grid" type="button" data-view="grid" onClick={this.changeView}>
+                        <button aria-label="grid" className="btn btn-info shop__grid" type="button" data-view="grid" onClick={this.changeView}>
                         </button>
-                        <button className="btn btn-info shop__list" type="button" data-view="list" onClick={this.changeView}>
+                        <button aria-label="list" className="btn btn-info shop__list" type="button" data-view="list" onClick={this.changeView}>
                         </button>
                     </div>
                     {this.state.view === "grid" ?
