@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-shop/static/css/main.32b921ff.chunk.css",
+    "main.js": "/react-shop/static/js/main.ddda2e3f.chunk.js",
+    "main.js.map": "/react-shop/static/js/main.ddda2e3f.chunk.js.map",
+    "runtime~main.js": "/react-shop/static/js/runtime~main.0bd8b961.js",
+    "runtime~main.js.map": "/react-shop/static/js/runtime~main.0bd8b961.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/react-shop/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.f9a72fd8.chunk.js": "/react-shop/static/js/2.f9a72fd8.chunk.js",
+    "static/js/2.f9a72fd8.chunk.js.map": "/react-shop/static/js/2.f9a72fd8.chunk.js.map",
+    "index.html": "/react-shop/index.html",
+    "precache-manifest.6bbf7755fc645f1266a24b94b1a86508.js": "/react-shop/precache-manifest.6bbf7755fc645f1266a24b94b1a86508.js",
+    "service-worker.js": "/react-shop/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/react-shop/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.32b921ff.chunk.css.map": "/react-shop/static/css/main.32b921ff.chunk.css.map",
+    "static/media/grid.svg": "/react-shop/static/media/grid.6d003507.svg",
+    "static/media/list.svg": "/react-shop/static/media/list.2c20d9c8.svg"
+  }
+}
