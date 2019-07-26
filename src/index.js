@@ -12,13 +12,13 @@ const render = () => ReactDOM.render(
         <div className="shop">
             <div className="container">
                 <header className="header">
-                    <a href="/react-shop/">
+                    <a href="/">
                         <div className="shop__main">Главная</div>
                     </a>
                     <h1 className="shop__title">Магазин</h1>
                 </header>
                 <div className="shop__wrapper">
-                    <Route exact path="/react-shop/" component={Main}/>
+                    <Route exact path="/" component={Main}/>
                     <Route path="/product/:id" component={Product}/>
                 </div>
             </div>
