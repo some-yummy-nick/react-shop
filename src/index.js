@@ -12,7 +12,7 @@ const render = () => ReactDOM.render(
         <div className="shop">
             <div className="container">
                 <header className="header">
-                    <Link to="/">
+                    <Link exact to="/">
                         <div className="shop__main">Главная</div>
                     </Link>
                     <h1 className="shop__title">Магазин</h1>
